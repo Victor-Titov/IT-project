@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Това е което съм направил за сега по късно ще го довърша но сега ще излизам и нямам време.-->
+<!--Толкоз за днес-->
 <head>
     <meta charset="UTF-8">
     <meta content = "width=device-width, initial-scale=1.0">
     <title>Subscribe</title>
-    <link rel = "stylesheet" href = "assets/css/subscribe.css">
+    <link rel = "stylesheet" href = "subscribe.css">
     <link rel = "logic" href = "subscribe.js">
 </head>
 
@@ -14,29 +14,33 @@
         <!--Тук ще има хеадър който е по различен от официалния и от него ще се връщаш към началната страница.-->
     </header>
 <div class="flex-container">
-    <!--Това въобще не е готово.-->
-      <form name="formone">
+    <!--Това е готово, но ще оправя утре малко бутона SUBSCRIBE.-->
+      <form class="formone">
         <h2 id="oneone">We will be very grateful 
            <br> if you support our site!</h2>
-        <h3  for="t1">Email:</h3>
-        <input id="t1" type="text" placeholder="user@gmail.com"><br><br>
-        <h3 id="l2">Phone:</h3>
-        <input id="t2" type="text" ><br><br>
-        <button onclick="sent()">Subscribe </button>
+        <div class="email">
+          <label for="email">Email:</label>&emsp;
+          <input type="text" id="email" placeholder="user@gmail.com" >
+        </div>
+        <div class="tel">
+          <label for="tel">Phone:</label>&emsp;
+          <input type="text" id="tel" placeholder="+359 765 123 921" >
+        </div>
+        <button onclick="sent()" id="subscribe">Subscribe </button>
       </form>
 
-      <form name="formtwo">
+      <form class="formtwo">
         <!--Това е готово-->
         <h2 id="twoone">You can support us and 
         <br>learn more about us on social media:</h2>
         <br>
-        <h2 id="l1" >facebook: ShopsBGface@gmail.com</h2>
+        <h2 class="l1" >facebook: ShopsBGface@gmail.com</h2>
         <br>
-        <h2 id="l1" >Tiktok: @ShopsBGoficial</h2>
+        <h2 class="l1" >Tiktok: @ShopsBGoficial</h2>
         <br>
-        <h2 id="l1" >Instagram: ShopsBg_products</h2>
+        <h2 class="l1" >Instagram: ShopsBg_products</h2>
         <br>
-        <h2 id="l1" >Whats App: #ShopBGfans </h2>
+        <h2 class="l1" >Whats App: #ShopBGfans </h2>
       </form>
 </div>
 
@@ -44,10 +48,10 @@
         function sent() {alert("Thank you for your support!");}    
      </script>
 
-     <footer>
+     <foter>
         <!--тук ще е официалния футър-->
             <hr>
-     </footer>
+     </foter>
 
 </body>
 
