@@ -1,0 +1,51 @@
+body
+{
+  background-image: url("../images/subsribewall.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-container
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+form 
+{
+border: solid;
+border-color: blueviolet;
+border-radius: 15px;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-left: 5%;
+padding-right: 5%;
+margin-top: 10%;
+margin-bottom: 5%;
+}
+
+#oneone
+{
+  font-weight: 100;
+}
+#twoone
+{
+  color: rgb(178, 48, 222);
+  font-weight: 100;
+}
+
+#l1
+{
+  color: rgb(14, 234, 234);
+}
+button
+{
+   background-color: rgb(5, 229, 254);
+   color: rgb(19, 26, 62);
+   border: none;
+   border-radius:5px;
+   border-color: rgb(255, 255, 255);
+  width: 80px;
+  height:30px;
+}
