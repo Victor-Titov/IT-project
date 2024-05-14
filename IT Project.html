@@ -6,38 +6,42 @@
     <meta charset="UTF-8">
     <meta content = "width=device-width, initial-scale=1.0">
     <title>Shops BG</title>
-    <link rel = "stylesheet" href = "assets/css/IT Project.css">
+    <link rel = "stylesheet" href = "IT Project.css">
     <link rel = "logic" href = "IT Project.js">
 </head>
 
 <body>
     <header class = "flex-container">
         
-        <img class = "flex-item" id = "logo" src = "assets/images/IT Project.jpg" width = 100px height = 100px alt = "Logo" title = "Our logo">
+        <img class = "flex-item" id = "logo" src = "images/IT Project.jpg" width = 100px height = 100px alt = "Logo" title = "Our logo">
         <h1 class = "flex-item" id = "name" title="The most diverse and vast online shop you will ever see">SHOPS BG<sup>®</sup></h1>
-          
-        <select class="flex-item" id = "buttOn" title="View the different categories of purchasable goods">
-            <option id = "dropdownitem"><a id="innerdropdownitem"><b>Categories</b></a></option> 
-            <option id = "dropdownitem"><a id="innerdropdownitem"><b>Electronics</b></a></option> 
-            <option id = "dropdownitem"><a id="innerdropdownitem"><b>Health & Beauty</b></a></option> 
-            <option id = "dropdownitem"><a id="innerdropdownitem"><b>Office Supplies</b></a></option>
-            <option id = "dropdownitem"><a id="innerdropdownitem"><b>Tools</b></a></option> 
-            <option id = "dropdownitem"><a id="innerdropdownitem"><b>Furniture</b></a></option>
-            <option id = "dropdownitem"><a id="innerdropdownitem"><b>Misc</b></a></option>
-        </select>
+          <!--Ето оправил съм дропдоун менютата, остава само да ги направиш с css сложил съм им и линкове.Има няколко файла които добавих и в css за да работят менютата.  -->
+        <div class="dropdown dropdown">
+            <button class="buttOn dropdown-toggle dropbtn" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</button>
+             <div class="dropdown-content" aria-labelledby="dropdownMenuButton2">
+               <a href="electronics.html">Electronics</a>
+               <a href="HealthBeauty.html">Health & Beauty</a>
+               <a href="OfficeSupplies.html">Office Supplies</a>
+               <a href="Tools.html">Tools</a>
+               <a href="Furniture.html">Furniture</a>
+               <a href="Misc.html">Misc</a>
+            </div>
+        </div>
 
         <a href="subscribe.html">
-            <button class="flex-item" title="" id="buttOn"><b>Subsribe</b></button>
+            <button class="buttOn" title="subscribe" id="option"><b>Subsribe</b></button>
         </a>
 
-        <select class="flex-item" id = "buttOn" title="Click here if you do not find what you need">
-            <option id = "dropdownitem"><a><b>More</b></a></option> 
-            <option id = "dropdownitem"><a href = "dummy.html"><b>About Us</b></a></option> 
-            <option id = "dropdownitem"><a><b>Contacts</b></a></option> 
-            <option id = "dropdownitem"><a><b>Deliveries</b></a></option>
-        </select>
+        <div class="dropdown dropdown">
+            <button class="buttOn dropdown-toggle dropbtn" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MORE</button>
+             <div class="dropdown-content" aria-labelledby="dropdownMenuButton2">
+               <a href="aboutus.html">About us</a>
+               <a href="contacts.html">Contacts</a>
+               <a href="Deliveries.html">Deliveries</a>
+         </div>
+          </div>
 
-        <a href = "shoppingcart.html"><img class = "flex-item" id = "Shopping" src = "shopping cart logo.jpg" width = 97px height = 97px alt = "shopping cart" title = "Shop Now!"></a>      
+        <a href = "images/shopping cart logo.jpg"><img class = "flex-item" id = "Shopping" src = "images/shopping cart logo.jpg" width = 97px height = 97px alt = "shopping cart" title = "Shop Now!"></a>      
     </header>
     <div class="potential carousel">
         <p><br>this<br>place will<br>be an<br>image<br>carousel<br>I<br>hope</p>
@@ -46,17 +50,17 @@
     <hr>
     <h1><b>Special Offers!<b></h1>
     <div class="special_offers">
-        <a href = "wrench.html" id = "specialoffer"><img id = "productimage" src="assets/images/wrench.jpg" title="wrench" width = "60%" height="60%"></a>
-        <a href = "bed.html" id = "specialoffer"><img id = "productimage" src="assets/images/bed.jpg" title="bed" width = "60%" height="60%"></a>
-        <a href = "laptop.html" id = "specialoffer"><img id = "productimage" src="assets/images/laptop.jpg" title="laptop" width = "60%" height="60%"></a>
-        <a href = "curvul.html" id = "specialoffer"><img id = "productimage" src="assets/images/curvul.jpg" title="curvul" width = "60%" height="60%"></a>
-        <a href = "TV.html" id = "specialoffer"><img id = "productimage" src="assets/images/TV.jpg" title="TV" width = "60%" height="60%"v></a>
-        <a href = "bag.html" id = "specialoffer"><img id = "productimage" src="assets/images/bag.jpg" title="bag" width = "60%" height="60%"></a>
-        <a href = "cart.html" id = "specialoffer"><img id = "productimage" src="assets/images/cart.jpg" title="cart" width = "60%" height="60%"></a>
-        <a href = "uselessbrick.html" id = "specialoffer"><img id = "productimage" src="assets/images/uselessbrick.jpg" title="iPhone150" width = "60%" height="60%"></a>
-        <a href = "socks.html" id = "specialoffer"><img id = "productimage" src="assets/images/socks.jpg" title="socks" width = "60%" height="60%"></a>
-        <a href = "kozunak.html" id = "specialoffer"><img id = "productimage" src="assets/images/kozunak.jpg" title="kozunak" width = "60%" height="60%"></a>
-        <a href = "eggs.html" id = "specialoffer"><img id = "productimage" src="assets/images/eggs.jpg" title="eggs" width = "60%" height="60%"></a>
+        <a href = "wrench.html" id = "specialoffer"><img id = "productimage" src="images/wrench.jpg" title="wrench" width = "60%" height="60%"></a>
+        <a href = "bed.html" id = "specialoffer"><img id = "productimage" src="images/bed.jpg" title="bed" width = "60%" height="60%"></a>
+        <a href = "laptop.html" id = "specialoffer"><img id = "productimage" src="images/laptop.jpg" title="laptop" width = "60%" height="60%"></a>
+        <a href = "curvul.html" id = "specialoffer"><img id = "productimage" src="images/curvul.jpg" title="curvul" width = "60%" height="60%"></a>
+        <a href = "TV.html" id = "specialoffer"><img id = "productimage" src="images/TV.jpg" title="TV" width = "60%" height="60%"v></a>
+        <a href = "bag.html" id = "specialoffer"><img id = "productimage" src="images/bag.jpg" title="bag" width = "60%" height="60%"></a>
+        <a href = "cart.html" id = "specialoffer"><img id = "productimage" src="images/cart.jpg" title="cart" width = "60%" height="60%"></a>
+        <a href = "uselessbrick.html" id = "specialoffer"><img id = "productimage" src="images/uselessbrick.jpg" title="iPhone150" width = "60%" height="60%"></a>
+        <a href = "socks.html" id = "specialoffer"><img id = "productimage" src="images/socks.jpg" title="socks" width = "60%" height="60%"></a>
+        <a href = "kozunak.html" id = "specialoffer"><img id = "productimage" src="images/kozunak.jpg" title="kozunak" width = "60%" height="60%"></a>
+        <a href = "eggs.html" id = "specialoffer"><img id = "productimage" src="images/eggs.jpg" title="eggs" width = "60%" height="60%"></a>
     </div>
     <hr>
     <br><br>
@@ -71,7 +75,7 @@
         <table>
             <tr>
                 <th>
-                    <img src="IT Project.jpg" id = "footerlogo" height = "100px" width = "100px" title = "Our Logo">
+                    <img src="images/IT Project.jpg" id = "footerlogo" height = "100px" width = "100px" title = "Our Logo">
                 </th>
                 <th>
                     <h4>&emsp;SHOPS BG<sup>®</sup></h4>

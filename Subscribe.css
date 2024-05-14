@@ -20,6 +20,8 @@ border-top-right-radius: 5px;
 #logo
 {
   margin-left: 2%;
+  border: 1%;
+  border-radius: 7px;
 }
 
 #name
