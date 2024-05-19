@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,87 +7,115 @@
     <meta charset="UTF-8">
     <meta content = "width=device-width, initial-scale=1.0">
     <title>Shops BG</title>
-    <link rel = "stylesheet" href = "IT Project.css">
-    <link rel = "logic" href = "IT Project.js">
+    <link rel = "stylesheet" href = "assets/css/IT Project.css">
+    <link rel = "logic" href = "assets/js/IT Project.js">
 </head>
 
 <body>
-    <header class = "flex-container">
-        
-        <img class = "flex-item" id = "logo" src = "images/IT Project.jpg" width = 100px height = 100px alt = "Logo" title = "Our logo">
+    <header class = "flex-container">        
+
+        <img class = "flex-item" id = "logo" src = "photos//IT Project.jpg" width =
+         100px height = 100px alt = "Logo" title = "Our logo">
         <h1 class = "flex-item" id = "name" title="The most diverse and vast online shop you will ever see">SHOPS BG<sup>®</sup></h1>
-          <!--Ето оправил съм дропдоун менютата, остава само да ги направиш с css сложил съм им и линкове.Има няколко файла които добавих и в css за да работят менютата.  -->
-        <div class="dropdown dropdown">
-            <button class="buttOn dropdown-toggle dropbtn" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</button>
-             <div class="dropdown-content" aria-labelledby="dropdownMenuButton2">
-               <a href="electronics.html">Electronics</a>
-               <a href="HealthBeauty.html">Health & Beauty</a>
-               <a href="OfficeSupplies.html">Office Supplies</a>
-               <a href="Tools.html">Tools</a>
-               <a href="Furniture.html">Furniture</a>
-               <a href="Misc.html">Misc</a>
+        <div class="dropdown">
+            <button class="buttOn dropdown-toggle dropbtn" type="button"><b>Categories</b></button>
+             <div class="dropdown-content">
+               <a href="electronics.html"><b>Electronics</b></a>
+               <a href="HealthBeauty.html"><b>Health & Beauty</b></a>
+               <a href="OfficeSupplies.html"><b>Office Supplies</b></a>
+               <a href="Tools.html"><b>Tools</b></a>
+               <a href="Furniture.html"><b>Furniture</b></a>
+               <a href="Misc.html"><b>Misc</b></a>
             </div>
         </div>
 
         <a href="subscribe.html">
-            <button class="buttOn" title="subscribe" id="option"><b>Subsribe</b></button>
+            <button class="buttOn" title="subscribe" id="option"><b>Subscribe</b></button>
         </a>
 
         <div class="dropdown dropdown">
-            <button class="buttOn dropdown-toggle dropbtn" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MORE</button>
+            <button class="buttOn dropdown-toggle dropbtn" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>More</b></button>
              <div class="dropdown-content" aria-labelledby="dropdownMenuButton2">
-               <a href="aboutus.html">About us</a>
-               <a href="contacts.html">Contacts</a>
-               <a href="Deliveries.html">Deliveries</a>
-         </div>
-          </div>
-
-        <a href = "images/shopping cart logo.jpg"><img class = "flex-item" id = "Shopping" src = "images/shopping cart logo.jpg" width = 97px height = 97px alt = "shopping cart" title = "Shop Now!"></a>      
+               <a href="aboutus.html"><b>About us</b></a>
+               <a href="Support.html"><b>Support page</b></a>
+               <a href="Deliveries.html"><b>Deliveries</b></a>
+            </div>
+        </div>
+        <a href = "shopping cart.html"><img c src = "assets/photos/shopping cart logo.jpg" width = 97px height = 97px alt = "shopping cart" title = "Shop Now!"></a>
     </header>
-    <div class="potential carousel">
-        <p><br>this<br>place will<br>be an<br>image<br>carousel<br>I<br>hope</p>
+    
+    
+
+    <div class = "mainbox">
+
+        <script src="assets/js/IT Project.js"></script>
+
+        <div class="slideshow-container" id="slideshow-left">
+            <div class="mySlides-1">
+              <a href="phonead.html"><img class="Slidesimages" src="assets/photos/phonead.jpg" style="width:100%" height="300px"></a>
+            </div>
+            <div class="mySlides-1">
+              <a href="laptopad.html"><img class="Slidesimages" src="assets/photos/laptopad.jpg" style="width:100%" height="300px"></a>
+            </div>
+            <div class="mySlides-1">
+              <a href = "gadget.html"><img class="Slidesimages" src="assets/photos/gadget.jpg" style="width:100%" height="300px"></a>
+            </div>
+        
+            <a class="prev" onclick="plusSlides1(-1)"><</a>
+            <a class="next" onclick="plusSlides1(1)">></a>
+        </div>
+
+        <div class="slideshow-container" id="slideshow-right">
+            <div class="mySlides-2">
+              <a href="lawnmowerad.html"><img class="Slidesimages" src="assets/photos/lawnmower ad.jpeg" style="width:100%" height="300px"></a>
+            </div>
+            <div class="mySlides-2">
+              <a href="laptopad.html"><img class="Slidesimages" src="assets/photos/juice.jpg" style="width:100%" height="300px"></a>
+            </div>
+            <div class="mySlides-2">
+              <a href = "gadget.html"><img class="Slidesimages" src="assets/photos/kozunakad.jpg" style="width:100%" height="300px"></a>
+            </div>
+        
+            <a class="prev" onclick="plusSlides2(-1)"><</a>
+            <a class="next" onclick="plusSlides2(1)">></a>
+        </div>
 
     </div>
-    <hr>
+
+    <a href = "#"><button class="backtotop">🢁</button></a>
+    
+<!--Това тук съм го променил-->
     <h1><b>Special Offers!<b></h1>
     <div class="special_offers">
-        <a href = "wrench.html" id = "specialoffer"><img id = "productimage" src="images/wrench.jpg" title="wrench" width = "60%" height="60%"></a>
-        <a href = "bed.html" id = "specialoffer"><img id = "productimage" src="images/bed.jpg" title="bed" width = "60%" height="60%"></a>
-        <a href = "laptop.html" id = "specialoffer"><img id = "productimage" src="images/laptop.jpg" title="laptop" width = "60%" height="60%"></a>
-        <a href = "curvul.html" id = "specialoffer"><img id = "productimage" src="images/curvul.jpg" title="curvul" width = "60%" height="60%"></a>
-        <a href = "TV.html" id = "specialoffer"><img id = "productimage" src="images/TV.jpg" title="TV" width = "60%" height="60%"v></a>
-        <a href = "bag.html" id = "specialoffer"><img id = "productimage" src="images/bag.jpg" title="bag" width = "60%" height="60%"></a>
-        <a href = "cart.html" id = "specialoffer"><img id = "productimage" src="images/cart.jpg" title="cart" width = "60%" height="60%"></a>
-        <a href = "uselessbrick.html" id = "specialoffer"><img id = "productimage" src="images/uselessbrick.jpg" title="iPhone150" width = "60%" height="60%"></a>
-        <a href = "socks.html" id = "specialoffer"><img id = "productimage" src="images/socks.jpg" title="socks" width = "60%" height="60%"></a>
-        <a href = "kozunak.html" id = "specialoffer"><img id = "productimage" src="images/kozunak.jpg" title="kozunak" width = "60%" height="60%"></a>
-        <a href = "eggs.html" id = "specialoffer"><img id = "productimage" src="images/eggs.jpg" title="eggs" width = "60%" height="60%"></a>
-    </div>
-    <hr>
-    <br><br>
-
-    <h1>TOP Picks! *coming soon</h1>
-
-    <div class="toppicks">
-
+        <a href = "specialoffer.html?wrench" id = "specialoffer"><img class="productimage" src="products/specialoffers/wrench.jpg" title="wrench" ></a>
+        <a href = "specialoffer.html?bed" id = "specialoffer"><img class="productimage" src="products/specialoffers/bed.jpg" title="bed" ></a>
+        <a href = "specialoffer.html?laptop" id = "specialoffer"><img class="productimage" src="products/specialoffers/laptop.jpg" title="laptop" ></a>
+        <a href = "specialoffer.html?curvul" id = "specialoffer"><img class="productimage" src="products/specialoffers/curvul.jpg" title="curvul" ></a>
+        <a href = "specialoffer.html?TV" id = "specialoffer"><img class="productimage" src="products/specialoffers/TV.jpg" title="TV" ></a>
+        <a href = "specialoffer.html?bag" id = "specialoffer"><img class="productimage" src="products/specialoffers/bag.jpg" title="bag" ></a>
+        <a href = "specialoffer.html?cart" id = "specialoffer"><img class="productimage" src="products/specialoffers/cart.jpg" title="cart" ></a>
+        <a href = "specialoffer.html?uselessbrick" id = "specialoffer"><img class="productimage" src="products/specialoffers/uselessbrick.jpg" title="iPhone150" ></a>
+        <a href = "specialoffer.html?socks" id = "specialoffer"><img class="productimage" src="products/specialoffers/socks.jpg" title="socks" ></a>
+        <a href = "specialoffer.html?kozunak" id = "specialoffer"><img class="productimage" src="products/specialoffers/kozunak.jpg" title="kozunak" ></a>
+        <a href = "specialoffer.html?eggs" id = "specialoffer"><img class="productimage" src="products/specialoffers/eggs.jpg" title="eggs" ></a>
     </div>
 
     <footer>
         <table>
             <tr>
                 <th>
-                    <img src="images/IT Project.jpg" id = "footerlogo" height = "100px" width = "100px" title = "Our Logo">
+                    <img src="photos//IT Project.jpg" id = "footerlogo" height = "100px" width = "100px" title = "Our Logo">
                 </th>
                 <th>
                     <h4>&emsp;SHOPS BG<sup>®</sup></h4>
                 </th>
                 <th>
-                    
-                    <p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ©shops bg<sup>®</sup> development team</p>
+
+                    <p>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13; ©shops bg<sup>®</sup> development team</p>
                 </th>
             </tr>
         </table>
-        
+
 
     </footer>
 </body>

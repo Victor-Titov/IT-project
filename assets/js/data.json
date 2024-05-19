@@ -1,0 +1,102 @@
+[
+{
+    "id": 0,
+    "name":"laptop",
+    "price": 1999.99,
+	"qty":5,
+    "cat":"special offers",
+    "img":"photos/laptop.jpg"
+}
+,
+{
+    "id": 1,
+    "name": "bag",
+    "price": 100,
+	"qty":12,
+    "cat":"electronics",
+    "img":"photos/bag.jpg"
+}
+,
+{
+    "id": 2,
+    "name":"bed",
+    "price": 2001,
+	"qty":10,
+    "cat":"special offers",
+    "img":"photos/bed.jpg"
+}
+,
+{
+    "id": 3,
+    "name":"curvul",
+    "price": 0.1,
+	"qty":9,
+    "cat":"special offers",
+    "img":"photos/curvul.jpg"
+}
+,
+{
+    "id": 4,
+    "name":"kozunak",
+    "price": 99,
+	"qty":8,
+    "cat":"special offers",
+    "img":"photos/kozunak.jpg",
+    "img1":"photos/kozunak.jpg",
+    "img2":"photos/kozunak.jpg"
+}
+,
+{
+    "id": 5,
+    "name":"socks",
+    "price": 9,
+	"qty":0,
+    "cat":"special offers",
+    "img":"photos/socks.jpg"
+}
+,
+{
+    "id": 6,
+    "name":"TV",
+    "price": 7777,
+	"qty":7,
+    "cat":"special offers",
+    "img":"photos/TV.jpg"
+}
+,
+{
+    "id": 7,
+    "name":"uselessbrik",
+    "price": 99999,
+	"qty":3,
+    "cat":"special offers",
+    "img":"photos/uselessbrik.jpg"
+}
+,
+{
+    "id": 8,
+    "name":"wrench",
+    "price": 123,
+	"qty":222,
+    "cat":"special offers",
+    "img":"photos/wrench.jpg"
+}
+,
+{
+    "id": 9,
+    "name":"cart",
+    "price": 5000,
+	"qty":0,
+    "cat":"special offers",
+    "img":"photos/cart.jpg"
+}
+,
+{
+    "id": 10,
+    "name":"eggs",
+    "price": 1,
+	"qty":13,
+    "cat":"special offers",
+    "img":"photos/eggs.jpg"
+}
+]

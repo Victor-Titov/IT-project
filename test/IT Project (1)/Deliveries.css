@@ -1,0 +1,46 @@
+ody
+{
+  background-image: url("deliverieswall.jpg");
+  background-repeat: no-repeat;
+  width: 1900;
+  height: 800;
+}
+
+.header
+{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+height: 100px;
+border-bottom:solid;
+border-color: rgb(71,141,153);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+#logo
+{
+  margin-left: 1%;
+  border: 1%;
+  border-radius: 10px;
+}
+
+#name
+{
+  margin-left: 1%;
+  color: rgb(30, 113, 128);
+}
+
+#homepage
+{
+  margin-left: 540%;
+  height: 65px;
+  width:max-content;
+  background-color: #75beea;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 200%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
