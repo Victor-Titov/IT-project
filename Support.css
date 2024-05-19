@@ -144,6 +144,14 @@ input::placeholder{
     overflow-y: auto; 
 }
 
+form button {
+    width: 40%;
+    height: 10%;
+    font-size: 25px;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+
 footer
 {
     position: absolute;

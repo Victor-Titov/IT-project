@@ -29,13 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
    decrementButton.addEventListener('click', () => {
        count--;
        counterValue.textContent = count;
-       localStorage.setItem("countflow", count);
    });
 
    incrementButton.addEventListener('click', () => {
        count++;
        counterValue.textContent = count;
-       localStorage.setItem("countflow", count);
    });
 });
 function getQueryParam(param) {
@@ -52,17 +50,15 @@ fetch('./data.json')
 .then(function (data) {
 const product=data.find(item=>item.name===productName);
   if (product) {
-  document.getElementById('product-name').textContent=product.name;
-  document.getElementById('product-price').textContent=product.price;
+    document.getElementById('product-name').textContent=product.name;
+    document.getElementById('product-price').textContent=product.price;
 	document.getElementById('product-qty').textContent=product.qty;
 	document.getElementById('product-imga').src=product.imga;
 	document.getElementById('product-imgb').src=product.imgb;
 	document.getElementById('product-imgc').src=product.imgc;
 	document.getElementById('product-desc').textContent=product.desc;
   document.getElementById('product-cat').textContent=product.cat;
-  localStorage.setItem("idflow", product.id);
   } else {
     document.getElementById('product-price').textContent='NoName';
   }
 })
-
