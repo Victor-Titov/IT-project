@@ -1,0 +1,56 @@
+   "laptop": "Experience advanced technology with our latest laptop, featuring a sleek design and powerful performance. With a 15.6-inch display, 16GB RAM, and 512GB SSD, it ensures smooth multitasking. The lightweight build and long battery life make it perfect for on-the-go use.",
+
+  "headphones": "Immerse yourself in superior sound with our premium headphones, designed for comfort and clarity. Featuring noise-canceling technology, 40mm drivers, and a 20-hour battery life, these headphones provide an unparalleled listening experience.",
+
+  "microphone": "Capture crystal-clear audio with our professional microphone, ideal for recording and streaming. Equipped with a cardioid pickup pattern, adjustable gain, and a built-in pop filter, it ensures high-quality sound for any application.",
+
+  "airpods": "Enjoy wireless freedom with our AirPods, offering seamless connectivity and exceptional sound quality. With a sleek design, touch controls, and a charging case that provides 24 hours of battery life, they are perfect for everyday use.",
+
+  "bed": "Transform your bedroom with our luxurious bed, crafted for comfort and style. Measuring 200 cm by 160 cm, it features a sturdy frame, plush headboard, and high-quality mattress, ensuring a restful night's sleep.",
+
+  "armchair": "Add elegance to your living space with our stylish armchair, designed for comfort and durability. Upholstered in premium fabric, it features a solid wood frame, plush cushions, and a timeless design that complements any decor.",
+
+  "ottoman": "Enhance your home with our versatile ottoman, perfect for extra seating or as a footrest. Upholstered in durable fabric, it features a sturdy frame and ample storage space, making it both functional and stylish.",
+
+  "desk": "Create an efficient workspace with our modern desk, designed for productivity and style. Measuring 120 cm by 60 cm, it features a spacious surface, sturdy legs, and built-in cable management, ensuring a clutter-free environment.",
+
+  "table": "Upgrade your dining area with our elegant table, crafted for both functionality and style. Measuring 150 cm by 90 cm, it features a solid wood top, sturdy legs, and a timeless design that fits any decor.",
+
+  "wardrobe": "Organize your clothes with our spacious wardrobe, designed for maximum storage and style. Measuring 180 cm by 120 cm, it features multiple shelves, hanging rods, and a sleek finish that complements any bedroom.",
+
+  "conditioner": "Keep your home comfortable with our efficient air conditioner, offering powerful cooling and energy-saving features. With a 12,000 BTU capacity, remote control, and quiet operation, it ensures optimal comfort year-round.",
+
+  "hairdye": "Achieve vibrant, long-lasting color with our premium hair dye, formulated for all hair types. Available in various shades, it provides full coverage, shine, and nourishment, ensuring beautiful results every time.",
+
+  "makeupremover": "Gently cleanse your skin with our effective makeup remover, designed to remove even waterproof makeup. Enriched with nourishing ingredients, it leaves your skin feeling fresh, clean, and hydrated.",
+
+  "beautypromopak": "Indulge in luxury with our beauty promo pack, featuring a selection of premium skincare products. This set includes a cleanser, toner, serum, and moisturizer, providing a complete regimen for radiant skin.",
+
+  "shampoo": "Revitalize your hair with our nourishing shampoo, formulated to cleanse and strengthen all hair types. Enriched with natural ingredients, it provides hydration, shine, and protection against damage.",
+
+  "leash": "Ensure your pet's safety with our durable leash, designed for comfort and control. Made from high-quality materials, it features a secure clasp, adjustable length, and a comfortable handle.",
+
+  "paper": "Stock up on essentials with our high-quality paper, perfect for printing, writing, and crafts. Available in various sizes, it features a smooth surface, bright finish, and is compatible with all printers.",
+
+  "puzzle": "Challenge your mind with our engaging puzzle, featuring 1000 pieces and a beautiful image. Made from high-quality materials, it provides hours of entertainment and helps improve cognitive skills.",
+
+  "water": "Stay hydrated with our refreshing bottled water, sourced from natural springs. Available in various sizes, it is pure, crisp, and perfect for on-the-go hydration.",
+  "correctionpen": "Fix mistakes effortlessly with our precision correction pen, designed for smooth, quick-drying coverage. The fine tip ensures accurate application, making it ideal for documents and notes.",
+
+  "pencils": "Write and draw with ease using our high-quality pencils, perfect for school, office, and art projects. Available in various grades, they provide smooth, consistent lines and are easy to sharpen.",
+
+  "scissorpack": "Equip your workspace with our multi-purpose scissor pack, featuring durable, sharp blades. Ideal for cutting paper, fabric, and more, these scissors ensure clean, precise cuts every time.",
+
+  "sharpie": "Make bold, permanent marks with our Sharpie marker, featuring a fine tip and quick-drying ink. Perfect for labeling, crafting, and more, it provides clear, fade-resistant results.",
+
+  "stapler": "Keep your documents organized with our reliable stapler, designed for smooth, jam-free operation. Featuring a durable build and ergonomic design, it ensures effortless stapling every time.",
+
+  "gluegun": "Complete your craft projects with our high-temperature glue gun, providing a strong, durable bond. Featuring an ergonomic design and quick heat-up time, it ensures precise application and reliable results.",
+
+  "screwdriver": "Tackle any repair job with our versatile screwdriver, featuring an ergonomic handle and interchangeable bits. Ideal for home, office, and DIY projects, it provides reliable performance and durability.",
+
+  "sawmachine": "Enhance your workshop with our powerful saw machine, designed for precision and efficiency. Featuring a durable build, adjustable blade, and safety features, it ensures clean, accurate cuts every time.",
+
+  "toolbox": "Organize your tools with our spacious toolbox, designed for durability and convenience. Featuring multiple compartments, a sturdy handle, and a lockable lid, it ensures your tools are always accessible and secure.",
+
+  "wrench": "Handle any task with our adjustable wrench, featuring a durable build and comfortable grip. Ideal for tightening and loosening bolts, it provides reliable performance and versatility."

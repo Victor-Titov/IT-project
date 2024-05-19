@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Официално съм готов с тази страница.Мислех си че може да направим с джава скрипт така че да записваме всеки който е събскрайбнал.-->
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0">
     <title>Subscribe</title>
-    <link rel="stylesheet" href="assets/css/Subscribe.css">
+    <link rel="stylesheet" href="subscribe.css">
 </head>
 <body>
-    <!--Това е уникалният хедър само за тази страница.-->
     <header class="header">
-        <img class="flex-item" id="logo" src="assets/photos//IT Project.jpg" width="80px" height="80px" alt="Logo" title="Our logo">
+        <img class="flex-item" id="logo" src="photos//IT Project.jpg" width="80px" height="80px" alt="Logo" title="Our logo">
         <h1 class="flex-item" id="name" title="The most diverse and vast online shop you will ever see">SHOPS BG<sup>®</sup></h1>
         <h2 id="subscribers">Subscribers: <span id="countsub">0</span></h2>
         <a href="IT Project.html">
@@ -18,7 +16,6 @@
       </a>
     </header>
     <div class="flex-container">
-        <!--Това е готово.-->
         <form class="formone">
             <h2 id="oneone">We will be very grateful 
                <br> if you support our site!</h2>
@@ -34,7 +31,6 @@
         </form>
 
         <form class="formtwo">
-            <!--Това е готово-->
             <h2 id="twoone">You can support us and 
             <br>learn more about us on social media:</h2>
             <br>
@@ -47,8 +43,26 @@
             <h2 class="l1">Whats App: #ShopBGfans</h2>
         </form>
     </div>
-    <!--Това е брояч за съсбскрайбърите-->
-    
-    <script src="assets/js/Subscribe.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+    const subscribeButton = document.getElementById('subscribe');
+    const countsub = document.getElementById('countsub');
+
+    let count = localStorage.getItem('countsub') ? parseInt(localStorage.getItem('countsub')) : 0;
+    countsub.textContent = count;
+
+    subscribeButton.addEventListener('click', () => {
+        event.preventDefault(); 
+        sent();
+        count++;
+        countsub.textContent = count;
+        localStorage.setItem('countsub', count);
+    });
+});
+
+function sent() {
+    alert("Thank you for your support!");
+}
+    </script>
 </body>
 </html>

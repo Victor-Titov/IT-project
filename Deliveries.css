@@ -1,0 +1,108 @@
+body
+{
+  background-image: url("photos//deliverieswall.jpg");
+  background-repeat: no-repeat;
+  width: 2401;
+  height: 800;
+
+}
+
+.header
+{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+height: 100px;
+border-bottom:solid;
+border-color: rgb(71,141,153);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+#logo
+{
+  margin-left: 1%;
+  border: 1%;
+  border-radius: 10px;
+}
+
+#name
+{
+  margin-left: 1%;
+  color: rgb(30, 113, 128);
+}
+#deliveries{
+margin-left: 16%;
+font-size: 200%;
+color: rgb(65, 123, 134);
+border: solid;
+border-color:rgba(62, 122, 133, 0.958); 
+border-radius: 8cqi;
+padding: 1%;
+}
+
+#homepage
+{
+  margin-left:150%;
+  height: 65px;
+  width:max-content;
+  background-color: #75beea;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 200%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#homepage:hover
+{
+    background-color: #6ad9df;
+}
+
+h1
+{
+  text-align: center;
+color:rgb(57, 112, 121)
+}
+
+h2
+{
+  text-align: center;
+color:rgb(53, 105, 114)
+}
+
+.flex-container
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+form 
+{
+border-right: solid;
+border-left: solid;
+border-color: rgb(8, 71, 83);
+padding-top: 2%;
+padding-bottom: 2%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.formone
+{
+  width: 25%;
+  height: 55%;
+}
+
+.formtwo
+{
+  width: 25%;
+  height: 75%;
+}
+
+#req
+{
+  text-align: left;
+  font-size: 70;
+  color:black
+}
